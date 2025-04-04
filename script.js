@@ -31,3 +31,11 @@ function calculate() {
         display.value = "Error";
     }
 }
+
+function backspace() {
+    const input = document.getElementById("display");
+    input.value = input.value.slice(0, -1); // Remove last character
+  }
+
+
+
