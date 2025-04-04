@@ -14,16 +14,16 @@ body {
 }
 
 .calculator {
-    width: 350px;
+    width: 450px;
+    height: 90vh;
     background: #1c1c1c;
-    padding: 20px;
+    padding: 3px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
     text-align: center;
     position: relative;
 }
 
-/* Lenovo Gaming Style */
 .top-bar {
     text-align: center;
     color: cyan;
@@ -42,70 +42,61 @@ body {
     padding: 10px;
     border: none;
     background: #222;
-    color: lime;
+    color: white;
     border-radius: 10px;
     margin-bottom: 15px;
-    box-shadow: inset 0 0 8px rgba(0, 255, 0, 0.5);
+    font-size: 7ch;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 3.2px;
 }
 
 button {
     width: 100%;
-    height: 60px;
-    font-size: 1.5rem;
-    background: #333;
+    height: 85px;
+    font-size: 1.1rem;
+    background: #3b3b3b;
     border: none;
     color: white;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
 }
 
-/* Button Hover Effects */
+
 button:hover {
-    background: rgba(0, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+    background: #323232;
 }
 
-/* Special Operators */
+
 .operator {
-    background: #ff4500;
+    background: #323232;
 }
 
 .operator:hover {
-    background: #ff6347;
-    box-shadow: 0 0 12px rgba(255, 99, 71, 0.8);
+    background: #3b3b3b;  
 }
 
-/* Action Buttons */
 .action {
-    background: cyan;
-    color: black;
+    background: #323232;
 }
 
 .action:hover {
-    background: #00ffff;
-    box-shadow: 0 0 12px rgba(0, 255, 255, 0.8);
+    background: #3b3b3b;
 }
 
-/* Equal Button */
+
 .equal {
-    background: limegreen;
+    background: #4cc2ff;
     color: black;
 }
 
 .equal:hover {
-    background: greenyellow;
-    box-shadow: 0 0 12px rgba(173, 255, 47, 0.8);
+    background: #323232;
 }
 
-/* Zero Button */
-.zero {
-    grid-column: span 2;
-}
+
